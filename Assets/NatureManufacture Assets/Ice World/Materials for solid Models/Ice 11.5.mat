@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ice 11.5
+  m_Shader: {fileID: 4800000, guid: a4782d8ae81cccd42b9032a90ae34339, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: d01457b88b1c5174ea4235d140b5fab8, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _IceMetalic:
+        m_Texture: {fileID: 2800000, guid: bfa91433c122b0948bf8ea10254c62fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceNoise:
+        m_Texture: {fileID: 2800000, guid: 32219bfa33ade30429ddd9c4b42e4523, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _IceNormal:
+        m_Texture: {fileID: 2800000, guid: a4697849e1d85f34581801c9d3abdf43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceTexture:
+        m_Texture: {fileID: 2800000, guid: 8a022ce66d6905c4a9edf7f2ca35db0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: d6664ac72af3d5d47bee75cf2acd1ba1, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: fb6566c21f717904f83743a5a76dd0b0, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 2800000, guid: fd8b85b15dfe0ad4cbbc5613a12722c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 951aab9a19f551f4385d0ceafdaf19b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: e4ec2a92d2183294d9d9be1f20a1fcdf, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: 2d2abbceb3ea0304998be71d26bbb79e, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BackGroundAlpha: 0.7
+    - _BackGroundIceAlpha: 0.7
+    - _BackGroundIceBlend: 1
+    - _BackGroundIcePower: 0.7
+    - _BackGroundScale: 0.012
+    - _Blend: 0
+    - _Depth: 0.98
+    - _DepthFalloff: -13
+    - _Distortion: 0.06
+    - _Float0: 0.0192
+    - _Float1: 2
+    - _Float2: 0
+    - _Float3: 0.9
+    - _Float5: 0
+    - _Float7: 0.7
+    - _Float9: 0.603
+    - _Foam: 1.79
+    - _FoamDepth: 0.94
+    - _FoamFalloff: -60
+    - _FoamPower: 4
+    - _FoamSmoothness: 0.2
+    - _FoamSpecular: 0
+    - _Foamfalloff: -4
+    - _FogColorDistance: 500
+    - _FogColorHardness: 1.02
+    - _FogDistance: 30
+    - _FogHardness: 2.44
+    - _IceAmountOpacity: 1
+    - _IceDepth: 0.023
+    - _IceNoiseTiling: 4.8
+    - _IceNormalScale: 0.71
+    - _MaskClipValue: 0.5
+    - _MetalicPower: 0.3
+    - _NoiseBlend: 0.244
+    - _NoisePower: 1.62
+    - _NormalScale: 0.7
+    - _RefractionPower: 0.155
+    - _SPec: 0.34
+    - _ShadowPower: 2
+    - _Smoothness: 0.9
+    - _Smothness: 0.869
+    - _SpecPower: 1
+    - _Specular: 0.1
+    - _SpecularPower: 0.292
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 1
+    - _TransScattering: 3.2
+    - _TransShadow: 1
+    - _Translucency: 3.5
+    - _WaterDepth: 0.3
+    - _WaterFalloff: 0.65
+    - _WaterSmoothness: 0.9
+    - _WaterSpecular: 0.05
+    - __dirty: 0
+    - _iCE_dEPTH: 0.019
+    m_Colors:
+    - _BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color0: {r: 0.83823526, g: 0.83823526, b: 0.83823526, a: 0}
+    - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
+    - _DeepColor: {r: 0.039035477, g: 0.249572, b: 0.2794118, a: 0}
+    - _FogColorMultiply: {r: 0.5897491, g: 0.681715, b: 0.7941176, a: 1}
+    - _IceColorBackground: {r: 0.875, g: 0.875, b: 0.875, a: 1}
+    - _IceColorTop: {r: 1, g: 1, b: 1, a: 1}
+    - _RefractionColor: {r: 0.10294107, g: 0.11217027, b: 0.11764697, a: 1}
+    - _ShalowColor: {r: 0.30201122, g: 0.40942606, b: 0.41911763, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

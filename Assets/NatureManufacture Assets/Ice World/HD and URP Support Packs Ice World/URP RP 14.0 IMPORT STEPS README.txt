@@ -1,0 +1,11 @@
+
+To turn on distortion at ice and render it properly please turn on in UniversalRP settings.
+- Opaque Texture
+- Depth Texture setting 
+
+You can find it at:
+UniversalRP-HighQuality
+UniversalRP-LowQuality
+UniversalRP-MediumQuality
+
+At the top of the settings.

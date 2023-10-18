@@ -1,0 +1,7 @@
+
+Import 14.0 HD RP support pack for unity 2022.2 default hd rp 14.0 or higer
+
+ !!!! IMPORTANT !!!! Default Diffusion Profile Assets at project Settings -> HDRP default settings--> bottom of the page and drag and 
+        drop our SSS settings diffusion profiles for ice into Diffusion profile list:
+       -NM_SSSSettings_Skin_Ice
+
