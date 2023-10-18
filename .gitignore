@@ -28,7 +28,7 @@
 /XluaSec.csproj
 /Assembly-CSharp-firstpass.csproj
 /Assets/StreamingAssets/*
-/Assets/NatureManufacture Assets/Ice World/*
+/Assets/NatureManufacture Assets/Ice World/Textures/*
 
 /NavMeshComponents.csproj
 /NavMeshComponentsEditor.csproj
